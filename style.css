@@ -1059,3 +1059,11 @@ a {
     margin-left: 120px;
   }
 }
+
+
+@media(max-width:416px) {
+  .coodolio{
+    margin-top: 50px;
+    margin-left: 18px;
+  }
+}
