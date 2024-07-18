@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
   <title>Lakshya Bhardwaj | Dev and writer</title>
   <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
 </head>
@@ -32,6 +33,16 @@
           <a href="./index.html#projects"> Projects </a>
         </li>
         <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+        <li>
+          <button class="container-button" aria-label="Toggle color mode" title="Toggle color mode">
+            <div class="sun visible">
+            </div>
+            <div class="moon">
+              <div class="star"></div>
+              <div class="star small"></div>
+            </div>
+          </button>
+        </li>
       </ul>
     </nav>
     <div class="main-header__sm-scr-nav-btn">
@@ -59,18 +70,18 @@
       </ul>
     </div>
     <button class="btn btn-theme btn-sm" id="downloadCV">
-      <a href="assets/Lakshya_Bhardwaj_Resume_.pdf" target="_blank">
+      <a href="assets/Lakshya_Bhardwaj.pdf" target="_blank">
         Download CV
       </a>
     </button>
   </header>
 
   <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
-  <div class="themeClrSelector">
+  <!-- <div class="themeClrSelector">
     <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
     <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
       class="themeClrSelector__img" />
-  </div>
+  </div> -->
   <!---->
 
   <section id="home-hero" class="home-hero">
@@ -182,14 +193,18 @@
   <section id="hola">
     <div class="main-container">
         <h1>
-            <span>Coding is about 70% thinking and 30% Writing</span>
+            <span class="code_text">Coding is about 70% thinking and 30% Writing,&nbsp;
+              <span class="code_text">
+                Personally been a guy who loves development. The power of DSA to solve concise time constrained solutions is what empowers it to solve questions. Here is a short summary among various coding platforms. 
+              </span>
+            </span>
         </h1>
         <div class="coodolio" >
             <h1>
-                <a href="https://codolio.com/profile/Lakshya1509" target="_blank" rel="noopener noreferrer">Hola amigos</a>
+                <a href="https://codolio.com/profile/Lakshya1509" target="_blank" rel="noopener noreferrer">Coding Platforms Summary</a>
             </h1>
             <!-- Adding an iframe to show the profile in real-time -->
-            <iframe src="https://codolio.com/profile/Lakshya1509" width="90%" height="400px"  style="border: solid red 10px;"></iframe>
+            <iframe src="https://codolio.com/profile/Lakshya1509" width="90%" height="400px"  style="border: solid rgb(17,78,116) 5px;"></iframe>
           </div>
     </div>
 </section>
@@ -242,7 +257,7 @@
             <div class="projects__list-item-details">
               <div class="projects__list-item-img-cont">
                 <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img">
-                <video src="assets/Project_Java_ATM - Made with Clipchamp.mp4" alt="Project_1" class="projects__list-item-1" autoplay muted loop></video>
+                <video src="assets/Projects_Web_Arpan.mp4" alt="Project_1" class="projects__list-item-1" autoplay muted loop></video>
               </div>
               <h3 class="heading-tertiary projects__list-item-heading-tertiary">
                 Arpan
@@ -303,9 +318,11 @@
                 </span>
               </p>
               <button class="btn btn-theme projects__btn-theme">
-                Live Link
+                <a href="https://github.com/LAKSHYA1509/Arpan-The-Blood-Checker-Locator" target="_blank">
+                  Code Link
+                </a>
               </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+              <!-- <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
             </div>
           </div>
           <div class="projects__list-item projects__list-item--inv">
@@ -334,9 +351,11 @@
                 </span>
               </p>
               <button class="btn btn-theme projects__btn-theme">
-                Live Link
+                <a href="https://github.com/LAKSHYA1509/Arpan-The-Blood-Checker-Locator" target="_blank">
+                  Code Link
+                </a>
               </button>
-              <button class="btn btn-inv projects__btn-inv">Code Link</button>
+              <!-- <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
             </div>
             <div class="projects__list-item-count">
               <span class="projects__list-item-count-num"> 4 </span>
@@ -373,7 +392,9 @@
             </div>
             <button type="button" onclick="SendMail()" class="contact__form-submit">Submit</button>
           </form>
-          <div class="contact__form-visual"></div>
+          <div class="contact__form-visual">
+            <img class="Holatiyo" src="https://i.postimg.cc/mrHQw69n/contact-form-bg.jpg" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -398,16 +419,16 @@
         </ul>
         <div class="main-footer__mid-line"></div>
         <div class="main-footer__socials">
-          <a href="#" class="main-footer__social-link">
+          <a href="https://github.com/lAKSHYA1509" target="_blank" class="main-footer__social-link">
             <img src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" alt="" class="main-footer__social-link-icon" />
           </a>
-          <a href="#" class="main-footer__social-link">
+          <a href="https://www.instagram.com/lakshaybhardwaj150903/" target="_blank" class="main-footer__social-link">
             <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
           </a>
           <a href="#" class="main-footer__social-link">
             <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
           </a>
-          <a href="#" class="main-footer__social-link">
+          <a href="https://www.linkedin.com/in/lakshyabhardwaj1509" target="_blank" class="main-footer__social-link">
             <img src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png" alt="" class="main-footer__social-link-icon" />
           </a>
           <a href="#" class="main-footer__social-link">
@@ -427,42 +448,51 @@
       </div>
     </div>
   </footer>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.161.0/three.module.js" integrity="sha512-PyU89+FbuSQctRii6eiPRVTKL+A+Tv1Vn4D7khS53Rksv48PB7JBZxhG8gnZBG7QjXpD9xWfEiDYpZIlq8cgfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
   
-  <script src="./script.js"></script>
+  <!-- Load your scripts -->
+  <script src="index.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-  function SendMail() {
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
 
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Message:', message);
+  <!-- Define the SendMail function -->
+  <script>
+    function SendMail() {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
 
-    Email.send({
-      Host: "smtp.elasticemail.com",
-      Username: "lakshaybhardwaj150903@gmail.com",
-      Password: "9A1405EFD5B36A4ECF6F923A0B568F5C570E",
-      To: 'lakshaybhardwaj150903@gmail.com',
-      From: "lakshaybhardwaj150903@gmail.com",
-      Subject: `Contact Form Submission from ${name}`,
-      Body: `Name: ${name}<br>Email: ${email}<br>Message: ${message}`
-    }).then(
-      message => {
-        console.log("SMTP Response:", message);
-        alert("Email successfully sent: " + message);
-      }
-    ).catch(
-      error => {
-        console.error("SMTP Error:", error);
-        alert("Failed to send email: " + error);
-      }
-    );
-  }
-</script>
+      console.log('Name:', name);
+      console.log('Email:', email);
+      console.log('Message:', message);
 
-  
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "lakshaybhardwaj150903@gmail.com",
+        Password: "9A1405EFD5B36A4ECF6F923A0B568F5C570E",
+        To: 'lakshaybhardwaj150903@gmail.com',
+        From: "lakshaybhardwaj150903@gmail.com",
+        Subject: `Contact Form Submission from ${name}`,
+        Body: `Name: ${name}<br>Email: ${email}<br>Message: ${message}`
+      }).then(
+        message => {
+          console.log("SMTP Response:", message);
+          alert("Email successfully sent: " + message);
+        }
+      ).catch(
+        error => {
+          console.error("SMTP Error:", error);
+          alert("Failed to send email: " + error);
+        }
+      );
+    }
+  </script>
+
+  <!-- Load your main script file last -->
+  <script src="script.js"></script>
 </body>
 
 </html>
