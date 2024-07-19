@@ -111,21 +111,21 @@ const eventFire = (el, etype) => {
   }
 }
 
-themeColorSelector.addEventListener('click', () => {
-  eventFire(themeColorSelectorInput, 'input')
-})
+// themeColorSelector.addEventListener('click', () => {
+//   eventFire(themeColorSelectorInput, 'input')
+// })
 
-const setDynamicColor = (color) => {
+// const setDynamicColor = (color) => {
 
-  const { r, g, b } = hexToRgb(`${color}`)
+//   const { r, g, b } = hexToRgb(`${color}`)
   
-  root.style.setProperty('--themeColor', `${r},${g},${b}`);
-  //localStorage.setItem('color', color)
-}
+//   root.style.setProperty('--themeColor', `${r},${g},${b}`);
+//   //localStorage.setItem('color', color)
+// }
 
-themeColorSelectorInput.addEventListener('input', (e) => {
-  setDynamicColor(e.target.value)
-})
+// themeColorSelectorInput.addEventListener('input', (e) => {
+//   setDynamicColor(e.target.value)
+// })
 
 // if (localStorage.getItem('color')) {
 //   let userSelectedColor = localStorage.getItem('color')
@@ -278,8 +278,8 @@ document.addEventListener('DOMContentLoaded', () => {
 document.getElementById('downloadCV').addEventListener('click', function() {
   // Create an anchor element
   var link = document.createElement('a');
-  link.href = 'assets/Lakshya_Bhardwaj_Resume_.pdf';  // Path to your PDF file
-  link.download = 'Lakshya_Bhardwaj_Resume_.pdf';     // Name of the downloaded file
+  link.href = 'assets/Lakshya_Bhardwaj.pdf';  // Path to your PDF file
+  link.download = 'Lakshya_Bhardwaj.pdf';     // Name of the downloaded file
 
   // Append the anchor to the body
   document.body.appendChild(link);
@@ -290,3 +290,13 @@ document.getElementById('downloadCV').addEventListener('click', function() {
   // Remove the anchor from the document
   document.body.removeChild(link);
 });
+
+
+// document.addEventListener('contextmenu', event => event.preventDefault());
+
+// // Disable F12 key and Ctrl+Shift+I combo
+// document.addEventListener('keydown', event => {
+//   if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey && event.keyCode === 73)) {
+//     event.preventDefault();
+//   }
+// });
