@@ -278,8 +278,8 @@ document.addEventListener('DOMContentLoaded', () => {
 document.getElementById('downloadCV').addEventListener('click', function() {
   // Create an anchor element
   var link = document.createElement('a');
-  link.href = 'assets/Lakshya_Bhardwaj.pdf';  // Path to your PDF file
-  link.download = 'Lakshya_Bhardwaj.pdf';     // Name of the downloaded file
+  link.href = 'assets/Lakshya_Bhardwaj_Latest_Resume.pdf';  // Path to your PDF file
+  link.download = 'Lakshya_Bhardwaj_Latest_Resume.pdf';     // Name of the downloaded file
 
   // Append the anchor to the body
   document.body.appendChild(link);
